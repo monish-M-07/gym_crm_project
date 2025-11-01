@@ -1,80 +1,31 @@
-# ======================
-# Python .gitignore
-# ======================
-
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
+*.pyc
+*.so
 
-# Virtual environment
+# Virtual environments
 venv/
 env/
-.venv/
-ENV/
-env.bak/
 
-# Distribution / packaging
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Logs and local config
+# Django stuff
+db.sqlite3
 *.log
 *.pot
-*.pydevproject
-.project
-.pytest_cache/
-.ipynb_checkpoints/
-.DS_Store
-Thumbs.db
+*.pyc
+local_settings.py
+staticfiles/
+media/
+*.py[cod]
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-coverage.xml
-*.cover
-*.py,cover
-.cache
-nosetests.xml
-
-# IDEs and editors
+# IDEs
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Temporary files
-*.tmp
-*.temp
-*.bak
 *.swp
-*~
+*.swo
 
-# System files
-desktop.ini
-
-# JSON / output folders
-json_output/
-output/
-logs/
-tmp/
+# OS files
+.DS_Store
+Thumbs.db
